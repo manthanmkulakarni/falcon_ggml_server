@@ -1,0 +1,164 @@
+[
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build",
+  "command": "/usr/bin/cc -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/home/ubuntu/poc/ggllm.cpp/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu11 -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mf16c -mfma -mavx -mavx2 -pthread -o CMakeFiles/ggml.dir/ggml.c.o -c /home/ubuntu/poc/ggllm.cpp/ggml.c",
+  "file": "/home/ubuntu/poc/ggllm.cpp/ggml.c",
+  "output": "CMakeFiles/ggml.dir/ggml.c.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 --options-file CMakeFiles/ggml.dir/includes_CUDA.rsp -O3 -DNDEBUG -std=c++11 -mf16c -mfma -mavx -mavx2 -Xcompiler -pthread -x cu -c /home/ubuntu/poc/ggllm.cpp/ggml-cuda.cu -o CMakeFiles/ggml.dir/ggml-cuda.cu.o",
+  "file": "/home/ubuntu/poc/ggllm.cpp/ggml-cuda.cu",
+  "output": "CMakeFiles/ggml.dir/ggml-cuda.cu.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build",
+  "command": "/usr/bin/cc -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/home/ubuntu/poc/ggllm.cpp/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu11 -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mf16c -mfma -mavx -mavx2 -pthread -o CMakeFiles/ggml.dir/k_quants.c.o -c /home/ubuntu/poc/ggllm.cpp/k_quants.c",
+  "file": "/home/ubuntu/poc/ggllm.cpp/k_quants.c",
+  "output": "CMakeFiles/ggml.dir/k_quants.c.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/home/ubuntu/poc/ggllm.cpp/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -pthread -o CMakeFiles/llama.dir/llama.cpp.o -c /home/ubuntu/poc/ggllm.cpp/llama.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/llama.cpp",
+  "output": "CMakeFiles/llama.dir/llama.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/cmpnct_unicode.dir/cmpnct_unicode.cpp.o -c /home/ubuntu/poc/ggllm.cpp/cmpnct_unicode.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/cmpnct_unicode.cpp",
+  "output": "CMakeFiles/cmpnct_unicode.dir/cmpnct_unicode.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/home/ubuntu/poc/ggllm.cpp/. -isystem /usr/local/cuda/include -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -pthread -o CMakeFiles/libfalcon.dir/libfalcon.cpp.o -c /home/ubuntu/poc/ggllm.cpp/libfalcon.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/libfalcon.cpp",
+  "output": "CMakeFiles/libfalcon.dir/libfalcon.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -c /home/ubuntu/poc/ggllm.cpp/tests/test-quantize-fns.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/tests/test-quantize-fns.cpp",
+  "output": "tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o -c /home/ubuntu/poc/ggllm.cpp/tests/test-quantize-perf.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/tests/test-quantize-perf.cpp",
+  "output": "tests/CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/test-sampling.dir/test-sampling.cpp.o -c /home/ubuntu/poc/ggllm.cpp/tests/test-sampling.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/tests/test-sampling.cpp",
+  "output": "tests/CMakeFiles/test-sampling.dir/test-sampling.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/tests",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o -c /home/ubuntu/poc/ggllm.cpp/tests/test-tokenizer-0.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/tests/test-tokenizer-0.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/common.dir/common.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/common.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/common.cpp",
+  "output": "examples/CMakeFiles/common.dir/common.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/falcon_common.dir/falcon_common.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/falcon_common.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/falcon_common.cpp",
+  "output": "examples/CMakeFiles/falcon_common.dir/falcon_common.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/main",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/main.dir/main.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/main/main.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/main/main.cpp",
+  "output": "examples/main/CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/falcon",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/build/asio/source/asio/include -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/falcon_main.dir/falcon_main.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/falcon/falcon_main.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/falcon/falcon_main.cpp",
+  "output": "examples/falcon/CMakeFiles/falcon_main.dir/falcon_main.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/falcon_quantize",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/falcon_quantize.dir/quantize.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/falcon_quantize/quantize.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/falcon_quantize/quantize.cpp",
+  "output": "examples/falcon_quantize/CMakeFiles/falcon_quantize.dir/quantize.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/quantize",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/quantize.dir/quantize.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/quantize/quantize.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/quantize/quantize.cpp",
+  "output": "examples/quantize/CMakeFiles/quantize.dir/quantize.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/quantize-stats",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/quantize-stats.dir/quantize-stats.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/quantize-stats/quantize-stats.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/quantize-stats/quantize-stats.cpp",
+  "output": "examples/quantize-stats/CMakeFiles/quantize-stats.dir/quantize-stats.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/perplexity",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/perplexity.dir/perplexity.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/perplexity/perplexity.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/perplexity/perplexity.cpp",
+  "output": "examples/perplexity/CMakeFiles/perplexity.dir/perplexity.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/falcon_perplexity",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/falcon_perplexity.dir/falcon_perplexity.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/falcon_perplexity/falcon_perplexity.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/falcon_perplexity/falcon_perplexity.cpp",
+  "output": "examples/falcon_perplexity/CMakeFiles/falcon_perplexity.dir/falcon_perplexity.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/embedding",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/embedding.dir/embedding.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/embedding/embedding.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/embedding/embedding.cpp",
+  "output": "examples/embedding/CMakeFiles/embedding.dir/embedding.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/save-load-state",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/save-load-state.dir/save-load-state.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/save-load-state/save-load-state.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/save-load-state/save-load-state.cpp",
+  "output": "examples/save-load-state/CMakeFiles/save-load-state.dir/save-load-state.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/benchmark",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/benchmark.dir/benchmark-matmult.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/benchmark/benchmark-matmult.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/benchmark/benchmark-matmult.cpp",
+  "output": "examples/benchmark/CMakeFiles/benchmark.dir/benchmark-matmult.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/baby-llama",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/baby-llama.dir/baby-llama.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/baby-llama/baby-llama.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/baby-llama/baby-llama.cpp",
+  "output": "examples/baby-llama/CMakeFiles/baby-llama.dir/baby-llama.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/train-text-from-scratch",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/train-text-from-scratch.dir/train-text-from-scratch.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/train-text-from-scratch/train-text-from-scratch.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/train-text-from-scratch/train-text-from-scratch.cpp",
+  "output": "examples/train-text-from-scratch/CMakeFiles/train-text-from-scratch.dir/train-text-from-scratch.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/examples/simple",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/examples -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/simple.dir/simple.cpp.o -c /home/ubuntu/poc/ggllm.cpp/examples/simple/simple.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/examples/simple/simple.cpp",
+  "output": "examples/simple/CMakeFiles/simple.dir/simple.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/pocs/vdot",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/pocs -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/vdot.dir/vdot.cpp.o -c /home/ubuntu/poc/ggllm.cpp/pocs/vdot/vdot.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/pocs/vdot/vdot.cpp",
+  "output": "pocs/vdot/CMakeFiles/vdot.dir/vdot.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/poc/ggllm.cpp/build/pocs/vdot",
+  "command": "/usr/bin/c++ -DGGML_CUDA_DMMV_X=32 -DGGML_CUDA_DMMV_Y=1 -DGGML_PERF=1 -DGGML_USE_CUBLAS -DGGML_USE_K_QUANTS -DK_QUANTS_PER_ITERATION=2 -I/usr/local/cuda/include -I/home/ubuntu/poc/ggllm.cpp/pocs -I/home/ubuntu/poc/ggllm.cpp/examples/. -I/home/ubuntu/poc/ggllm.cpp/. -O3 -DNDEBUG -std=gnu++11 -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -o CMakeFiles/q8dot.dir/q8dot.cpp.o -c /home/ubuntu/poc/ggllm.cpp/pocs/vdot/q8dot.cpp",
+  "file": "/home/ubuntu/poc/ggllm.cpp/pocs/vdot/q8dot.cpp",
+  "output": "pocs/vdot/CMakeFiles/q8dot.dir/q8dot.cpp.o"
+}
+]

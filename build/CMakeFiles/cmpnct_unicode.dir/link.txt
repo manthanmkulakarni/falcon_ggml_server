@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcmpnct_unicode.a CMakeFiles/cmpnct_unicode.dir/cmpnct_unicode.cpp.o
+/usr/bin/ranlib libcmpnct_unicode.a

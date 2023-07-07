@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibfalcon.a CMakeFiles/libfalcon.dir/libfalcon.cpp.o CMakeFiles/ggml.dir/ggml.c.o "CMakeFiles/ggml.dir/ggml-cuda.cu.o" CMakeFiles/ggml.dir/k_quants.c.o
+/usr/bin/ranlib liblibfalcon.a
